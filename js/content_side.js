@@ -16,6 +16,9 @@
 
 
 
+
+
+
  $('#pro_ba_trazar').click(function(){
 
   $('#contenido').load('pages/procesos_basicos/trazar.php').slideDown(560);

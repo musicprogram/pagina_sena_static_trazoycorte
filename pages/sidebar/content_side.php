@@ -246,4 +246,34 @@
     });
 
 
+     $('#piqueteadoras').click(function(){
+
+      $('#contenido').load('pages/maquinas_aux/piqueteadoras.php').slideDown(560);
+    })
+
+     $('#tiqueteadoras').click(function(){
+
+      $('#contenido').load('pages/maquinas_aux/tiqueteadoras.php').slideDown(560);
+    })
+
+    $('#pinzas').click(function(){
+
+      $('#contenido').load('pages/maquinas_aux/pinzas.php').slideDown(560);
+    })
+
+     $('#grapadora').click(function(){
+
+      $('#contenido').load('pages/maquinas_aux/grapadora.php').slideDown(560);
+    })
+
+     $('#extremo').click(function(){
+
+      $('#contenido').load('pages/maquinas_aux/extremo.php').slideDown(560);
+    })
+
+     $('#pines').click(function(){
+
+      $('#contenido').load('pages/maquinas_aux/pines.php').slideDown(560);
+    })
+
   </script>
