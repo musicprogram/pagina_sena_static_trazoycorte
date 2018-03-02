@@ -181,6 +181,27 @@
 
 
 
+<li class="bold">
+  <!-- Dropdown Trigger -->
+  <a class='dropdown-button waves-effect waves-cyan tooltipped' data-activates='dropdown5' data-position="right" data-delay="50" data-tooltip="Programación y liquidación de corte"> <i class="mdi-editor-border-all"></i>Programación de corte</a>
+</li>
+
+
+<!-- Dropdown Structure -->
+<ul id='dropdown5' class='dropdown-content'>
+
+ <li><a id="programacion_corte">5.1 Programación y liquidación de corte</a>
+ </li>
+ <li><a id="liquidacion_corte">5.2 Liquidación de corte</a>
+ </li>
+
+</ul>
+
+
+
+
+
+
 
 <li class="no-padding">
 
@@ -275,5 +296,22 @@
 
       $('#contenido').load('pages/maquinas_aux/pines.php').slideDown(560);
     })
+
+
+
+
+    $('#programacion_corte').click(function(){
+
+      $('#contenido').load('pages/programacion_corte/programacion_corte.php').slideDown(560);
+    })
+
+
+$('#liquidacion_corte').click(function(){
+
+      $('#contenido').load('pages/programacion_corte/liquidacion_corte.php').slideDown(560);
+    })
+
+
+     
 
   </script>
