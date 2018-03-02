@@ -1,27 +1,22 @@
+
+
+
  $('.tooltipped').tooltip({delay: 50});
 
 
-$('#extendedor').click(function(){
+ $('#extendedor').click(function(){
 
   $('#contenido').load('pages/maquinas_aux/extendedor.php').slideDown(560);
 })
 
-$('#perforadoras').click(function(){
+ $('#perforadoras').click(function(){
 
   $('#contenido').load('pages/maquinas_aux/perforadoras.php').slideDown(560);
 })
 
 
 
-
-
-
-
-
-
-
-
-$('#pro_ba_trazar').click(function(){
+ $('#pro_ba_trazar').click(function(){
 
   $('#contenido').load('pages/procesos_basicos/trazar.php').slideDown(560);
 })
@@ -146,4 +141,3 @@ $('#pro_ba_trazar').click(function(){
 })
 
 
-        
